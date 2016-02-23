@@ -2,7 +2,7 @@
 
 A simple **responsive** image slider plugin.
 
-![demo](dem.gif)
+![demo](https://raw.github.com/qizt/image_slider/master/img/demo.gif)
 
 ## How to use
 
