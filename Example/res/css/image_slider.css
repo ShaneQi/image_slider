@@ -1,0 +1,79 @@
+ul.image_slider{
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.2);
+  margin: auto;
+  background-color: grey;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.filler{
+  height: 100%;
+  padding-top: 56.25%;
+}
+ul.image_slider li {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+ul.image_slider li img {
+  display: block;
+  width: 100%;
+}
+ul.image_slider span.previousArrow, ul.image_slider span.nextArrow{
+  position: absolute;
+  top: 50%;
+  padding: 0 11px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: -25px 25px 0 25px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+ul.image_slider span.previousArrow:hover, ul.image_slider span.nextArrow:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+ul.image_slider span.previousArrow {
+  left: 0;
+}
+ul.image_slider span.nextArrow {
+  right: 0;
+}
+ul.image_slider span.description {
+  color: white;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  padding: 2px 10px;
+  top: 25px;
+  left: 25px;
+}
+ul.image_slider .pageContainer {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+}
+ul.image_slider .pageContainer span.pageBtn {
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2px 6px;
+  margin: 0 5px;
+}
+ul.image_slider .pageContainer span.pageBtn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
